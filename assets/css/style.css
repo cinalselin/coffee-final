@@ -93,16 +93,28 @@ header div img{
 /* ====== menu SECTION ====== */
 
 #menu {
-    background: url(../img/cake_icon.png) repeat-y;
+    /* background: url(../img/cake_icon.png) repeat-y; */
     /* background: url(../img/bridge_2.jpg) no-repeat; */
-    background-size: contain;
+    background: url(../img/bridge_2.jpg) no-repeat;
+    background-size: cover;
+    height: 150vh;
+    background-attachment: fixed;
     text-align: center;
 }
-#menu div{
+.menubg{
+    background: url(../img/cake_icon.png) no-repeat;
+    background-size: contain;
+    background-position: left;
+    background-color: #fff;
     text-align: center;
-    width: 30%;
+    width: 100vw;
     margin: auto;
     padding: 2.5rem 0;
+}
+.menubg div{
+    width: 30%;
+    margin: auto;
+
 }
 #menu a{
     display: block;
