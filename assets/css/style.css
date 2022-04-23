@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@800&family=Special+Elite&display=swap');
 
-/* font-family: 'Exo', sans-serif;
-font-family: 'Special Elite', cursive; */
-
 * {
     margin: 0;
     padding: 0;
@@ -96,7 +93,6 @@ header div img{
 /* ====== menu SECTION ====== */
 
 #menu {
-    /* height: 100vh; */
     background: url(../img/cake_icon.png) repeat-y;
     /* background: url(../img/bridge_2.jpg) no-repeat; */
     background-size: contain;
